@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+.viaje-de-promocion {
+    font-size: 1.5em;
+}
+
+.viaje {
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.4;
+}
+
+
+img.portada {
+    max-width: 100%;
+    max-height: 700px;
+    height:700px;
+    width: 1000px; 
+    margin: 10px auto; 
+    display: block;
+}
+
+.portada-container {
+    text-align: center; 
+}
+
+img, video {
+    max-width: 100%;
+    max-height: 300px;
+    height: auto;
+    margin: 10px 0;
+}
+
+audio {
+    margin: 10px 0;
+    display: block;
+}
+
+.turismo, .Fiesta {
+    color: #28a745;
+    margin-top: 20px;
+}
+.expandible {
+    cursor: pointer;
+}
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal img {
+    max-width: 90%;
+    max-height: 90%;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
